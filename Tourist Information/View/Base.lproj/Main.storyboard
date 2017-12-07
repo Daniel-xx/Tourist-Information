@@ -48,10 +48,10 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r62-rl-Kod">
-                                <rect key="frame" x="88" y="34" width="68" height="32"/>
+                                <rect key="frame" x="88" y="34" width="72" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Gs2-tm-ENo"/>
-                                    <constraint firstAttribute="width" constant="68" id="kXH-sb-fLC"/>
+                                    <constraint firstAttribute="width" constant="72" id="kXH-sb-fLC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="36"/>
                                 <color key="textColor" white="0.24683374828762478" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,58 +67,56 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day Pass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-hA-1ga">
-                                <rect key="frame" x="82.5" y="104" width="210" height="52"/>
+                                <rect key="frame" x="67.5" y="104" width="240" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="ANB-xv-znf"/>
-                                    <constraint firstAttribute="width" constant="210" id="M7P-NP-unK"/>
+                                    <constraint firstAttribute="width" constant="240" id="M7P-NP-unK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="33"/>
                                 <color key="textColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vbW-LE-8QM">
-                                <rect key="frame" x="20" y="210" width="335" height="390"/>
+                                <rect key="frame" x="20" y="213" width="335" height="387"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pha-mJ-c1H">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="190"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="188.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivf-sz-z1E" userLabel="FreeDaysOut">
-                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="190"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="ivf-sz-z1E" secondAttribute="height" multiplier="81:95" id="sNo-q5-b6D"/>
-                                                </constraints>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="188.5"/>
                                                 <state key="normal" image="daysout"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePK-DO-4j2" userLabel="PaidDaysOut">
-                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="190"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="ePK-DO-4j2" secondAttribute="height" multiplier="81:95" id="TXf-fE-ezt"/>
-                                                </constraints>
+                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="188.5"/>
                                                 <state key="normal" image="paydaysout"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GKD-ud-AYn">
-                                        <rect key="frame" x="0.0" y="200" width="335" height="190"/>
+                                        <rect key="frame" x="0.0" y="198.5" width="335" height="188.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dez-fx-yEP" userLabel="CountryParks">
-                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="190"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="dez-fx-yEP" secondAttribute="height" multiplier="81:95" id="NXm-PR-A5U"/>
-                                                </constraints>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="188.5"/>
                                                 <state key="normal" image="countryparks"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EN0-D8-t7p" userLabel="Restroom">
-                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="190"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="EN0-D8-t7p" secondAttribute="height" multiplier="81:95" id="wg1-hq-CPL"/>
-                                                </constraints>
+                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="188.5"/>
                                                 <state key="normal" image="restroom"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="dez-fx-yEP" firstAttribute="width" secondItem="ePK-DO-4j2" secondAttribute="height" multiplier="6:7" id="N3N-2U-bpy"/>
+                                </constraints>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="0tI-ro-2dQ">
+                                <rect key="frame" x="241" y="22" width="51" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="P8y-rK-euC"/>
+                                    <constraint firstAttribute="width" constant="51" id="aM4-j7-CYN"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.82352941176470584" green="0.92549019607843142" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -134,7 +132,9 @@
                             <constraint firstItem="vdz-4v-jeR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XIo-1d-9Ru"/>
                             <constraint firstItem="uQX-us-HT5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ajc-a0-mDj"/>
                             <constraint firstItem="r62-rl-Kod" firstAttribute="leading" secondItem="uQX-us-HT5" secondAttribute="trailing" constant="8" id="cPQ-Ra-eWo"/>
+                            <constraint firstItem="0tI-ro-2dQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="2" id="fja-uN-qDT"/>
                             <constraint firstItem="0pm-hA-1ga" firstAttribute="top" secondItem="FhW-73-uyc" secondAttribute="bottom" constant="12" id="mt5-hT-0dp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0tI-ro-2dQ" secondAttribute="trailing" constant="83" id="oj8-5F-sp1"/>
                             <constraint firstAttribute="trailing" secondItem="vbW-LE-8QM" secondAttribute="trailing" constant="20" id="qgU-8f-9e6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FhW-73-uyc" secondAttribute="trailing" constant="50" id="rEy-fI-iRQ"/>
                             <constraint firstItem="e68-kh-XLl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sHv-5i-J39"/>
@@ -191,6 +191,7 @@
     <resources>
         <image name="bg" width="562" height="962"/>
         <image name="close" width="52" height="52"/>
+        <image name="cloud" width="96" height="96"/>
         <image name="countryparks" width="450" height="530"/>
         <image name="daysout" width="450" height="530"/>
         <image name="paydaysout" width="450" height="530"/>
